@@ -1,0 +1,12 @@
+nav {
+	text-align: right;
+	position: absolute;
+	right: 10px;
+	display: flex;
+	flex-direction: ;
+}
+
+li {
+	display: flex;
+	list-style: none;
+}
