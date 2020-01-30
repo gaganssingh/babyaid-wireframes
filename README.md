@@ -1,8 +1,8 @@
-#BabyAid
+# BabyAid
 
 This repo includes the wireframes and User stories for the BabyAid project.
 
-##Wireframes
+## Wireframes
 
 [Landing Page] (https://repl.it/@gssingh/BabyAid-WF-landing-page)
 
@@ -15,7 +15,7 @@ This repo includes the wireframes and User stories for the BabyAid project.
 [Signup Page] (https://repl.it/@gssingh/BabyAid-WF-signup-page)
 
 
-#UserStories
+# UserStories
 ## Landing page
     1. Find recipes (nav button) -> user taken to the find recipes page
     2. Find a doctor (nav button) -> user taken to the find a doctor page
