@@ -5,8 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Recipes</title>
+    <link rel="stylesheet" href="find-recipes.css">
 </head>
 <body>
-    <h1>Please select your child's age for relevant recipes</h1>
+    <nav role="navigation">Nav</nav>
+    <main role="main">
+        <section>
+            <header>
+                <h1>Find Recipes</h1>
+            </header>
+                <form class="find-recipe">
+                    <label for="search">Age</label>
+                    <select name="search" id="search">
+                        <option value="birthto4">Birth To 4 Months</option>
+                        <option value="fourto6">4 To 6 Months</option>
+                        <option value="sixto8">6 To 8 Months</option>
+                        <option value="eightto10">8 To 10 Months</option>
+                        <option value="tento12">10 To 12 Months</option>
+                    </select>
+                </form>
+        </section>
+
+        <section class="recipe-section">
+            <div class="recipe-box">
+                <h3>Recipe 1</h3>
+                <p>[<em>image of the recipe goes here</em>]</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptatem?</p>
+            </div>
+            <div class="recipe-box">
+                <h3>Recipe 2</h3>
+                <p>[<em>image of the recipe goes here</em>]</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptatem?</p>
+            </div>
+            <div class="recipe-box">
+                <h3>Recipe 3</h3>
+                <p>[<em>image of the recipe goes here</em>]</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptatem?</p>
+            </div>
+            <div class="recipe-box">
+                <h3>Recipe 4</h3>
+                <p>[<em>image of the recipe goes here</em>]</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptatem?</p>
+            </div>
+        </section>
+    </main>
+    <footer role="content-info">Footer</footer>
 </body>
 </html>

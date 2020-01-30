@@ -5,8 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Find A Nearby Doctor</title>
+    <link rel="stylesheet" href="find-doctors.css">
 </head>
 <body>
-    <h1>Please enter the city name to search for a doctor</h1>
+    <nav role="navigation">Nav</nav>
+    <main role="main">
+        <section>
+            <header>
+                <h1>Find a doctor</h1>
+            </header>
+                <form class="find-recipe">
+                    <label for="search">Please enter city name</label>
+                    <input type="text" name="search" id="search">
+                </form>
+        </section>
+
+        <section class="doctor-section">
+            <div class="doctor-box">
+                <h3>Doctor 1</h3>
+                <p>[<em>map of the doctor goes here</em>]</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptatem?</p>
+            </div>
+            <div class="doctor-box">
+                <h3>Doctor 2</h3>
+                <p>[<em>map of the doctor goes here</em>]</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptatem?</p>
+            </div>
+            <div class="doctor-box">
+                <h3>Doctor 3</h3>
+                <p>[<em>map of the doctor goes here</em>]</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptatem?</p>
+            </div>
+        </section>
+    </main>
+    <footer role="content-info">Footer</footer>
 </body>
 </html>

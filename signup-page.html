@@ -5,16 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="signup-page.css">
 </head>
 <body>
-    <h1>Sign Up</h1>
-    <form action="#">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="name">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="email@domain.com">
-        <label for="password">password</label>
-        <input type="password" name="password" id="password" placeholder="must be at least 6 characters">
-    </form>
+    <nav role="navigation">Nav</nav>
+    <main>
+        <section>
+            <header>
+                <h3>Sign up</h3>
+            </header>
+            <form class='signup-form'>
+                <div class="field">
+                    <label for="first-name">First name</label>
+                    <input placeholder='First Name' type="text" name='first-name' id='first-name' />
+                </div>
+                <div class="field">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name='last-name' id='last-name' placeholder='Last Name' />
+                </div>
+                <div class="field">
+                    <label for="username">Email</label>
+                    <input type="text" name='username' id='username' />
+                </div>
+                <div class="field">
+                    <label for="password">Password</label>
+                    <input type="password" name='password' id='password' />
+                </div>
+                <button type='submit'>Create Account</button>
+            </form>
+            </section>
+    </main>
+    <footer role="content-info">Footer</footer>
 </body>
 </html>
