@@ -14,6 +14,8 @@ This repo includes the wireframes and User stories for the BabyAid project.
 
 [Signup Page] (https://repl.it/@gssingh/BabyAid-WF-signup-page)
 
+[Login Page] (https://repl.it/@gssingh/BabyAid-WF-login-page)
+
 
 # UserStories
 ## Landing page
@@ -35,3 +37,7 @@ This repo includes the wireframes and User stories for the BabyAid project.
 ## Signup page
     1. User enters valid info and clicks Create Account (button) -> Taken to profile page
     2. User enters incomplete or invalid info and clicks Create Account (button) -> warning (tooltip) pops on the page
+
+## Login page
+    1. User enters valid info and click Login (button) -> Taken to home page
+    2. User enters incomplete or invalid info and clicks Login (button) -> warning (tooltip) pops on the page
